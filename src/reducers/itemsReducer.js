@@ -1,4 +1,4 @@
-import { DISPLAY_ITEMS, DELETE_ITEMS, EDIT_ITEMS } from "../actions/types";
+import { DISPLAY_ITEMS, DELETE_ITEMS, EDIT_ITEM } from "../actions/types";
 import Items from "../data/data.json";
 
 const initialState = {
@@ -17,7 +17,7 @@ export default function(state = initialState, action) {
         ...state,
         items: state.items.filter(item => item.p_id !== action.payload)
       };
-    case EDIT_ITEMS:
+    case EDIT_ITEM:
       return {
         ...state,
         selectedItem: state.items.filter(item => item.p_id === action.payload)

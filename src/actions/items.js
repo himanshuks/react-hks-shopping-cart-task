@@ -1,4 +1,4 @@
-import { DISPLAY_ITEMS, DELETE_ITEMS, EDIT_ITEMS } from "./types";
+import { DISPLAY_ITEMS, DELETE_ITEMS, EDIT_ITEM } from "./types";
 
 import ItemData from "../data/data";
 
@@ -19,7 +19,7 @@ export const deleteItem = id => dispatch => {
 export const editItem = id => dispatch => {
   console.log("id received is" + id);
   dispatch({
-    type: EDIT_ITEMS,
+    type: EDIT_ITEM,
     payload: id
   });
 };
