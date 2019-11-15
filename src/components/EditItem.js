@@ -12,7 +12,7 @@ class EditItem extends Component {
     return (
       <Fragment>
         <div className="popup">
-          <div className="innerpopup">
+          <div className="popup_inner">
             {this.props.selectedItem.map(x => (
               <div key={x.p_id}>
                 <li>{x.p_name.toUpperCase()}</li>
