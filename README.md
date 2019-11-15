@@ -12,6 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## What it features
 
-1. User can create, edit and delete a todo item.
-2. Created todo item can be marked as completed and vice versa.
-3. User can create bucket and add particular todos in it. Multiple buckets can be created as per user choice.
+1. User will see few products already added in the cart.
+2. Total amount will be displayed at the bottom based on quantity and price of items present in the cart.
+3. Any product can be removed from the list of displayed items.
+4. Any product can be edited for change of Size, Color and Quantity after new popup window gets opened after clicking on Edit option.
